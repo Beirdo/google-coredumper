@@ -1,0 +1,14 @@
+.deps/
+.libs/
+Makefile
+autom4te.cache/
+config.log
+config.status
+*.lo
+*.o
+coredumper_unittest
+*.la
+linux_syscall_support_unittest
+src/config.h
+src/config.h.in~
+src/stamp-h1

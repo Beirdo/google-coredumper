@@ -57,6 +57,19 @@ extern "C" {
 #define CLONE_UNTRACED 0x00800000
 #endif
 
+#ifndef CLONE_VM
+#define CLONE_VM 0x00000100
+#endif
+
+#ifndef CLONE_FS
+#define CLONE_FS 0x00000200
+#endif
+
+#ifndef CLONE_FILES
+#define CLONE_FILES 0x00000400
+#endif
+
+
 
 /* Synchronous signals that should not be blocked while in the lister thread.
  */

@@ -62,6 +62,10 @@ extern "C" {
 #define CLONE_UNTRACED 0x00800000
 #endif
 
+#ifndef CLONE_VM
+#define CLONE_VM 0x00000100
+#endif
+
 #ifndef AT_SYSINFO_EHDR
 #define AT_SYSINFO_EHDR 33
 #endif
